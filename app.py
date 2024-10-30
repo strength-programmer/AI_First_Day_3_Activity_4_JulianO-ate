@@ -41,10 +41,10 @@ if options == "Home":
 elif options == "About Us":
     st.title("About Us")
     st.write("# AI Republic News Summarizer")
-    st.image('images/Meer.png')
+    st.image('images/Mountain.png')
     st.write("## Empowering readers with quick, accurate news summaries")
-    st.text("Connect with us via LinkedIn: [LinkedIn Link]")
-    st.text("For more information, visit our website: www.airepublic.com")
+    st.markdown("[Connect with us via LinkedIn](https://www.linkedin.com/in/julian-carl-o%C3%B1ate-953520280/)")
+    st.write("For more information, visit our website: [www.airepublic.com](https://www.airepublic.com)")
     st.write("\n")
 
 # Options : News Summarizer
